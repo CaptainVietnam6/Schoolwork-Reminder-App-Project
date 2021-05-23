@@ -26,7 +26,10 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+        headerShown: false //hides top header bar
+        }}>
         <Stack.Screen name = "Welcome Screen" component = {WelcomeScreen} />
         <Stack.Screen name = "Main Screen" component = {MainScreen} />
       </Stack.Navigator>

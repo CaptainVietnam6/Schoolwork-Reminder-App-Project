@@ -1,12 +1,12 @@
-import * as React from 'react';
-import { Text } from 'react-native';
-import { View } from 'react-native';
-import { StyleSheet } from 'react-native';
-import Constants from 'expo-constants';
-import { ImageBackground } from 'react-native';
+import * as React from "react";
+import { Text } from "react-native";
+import { View } from "react-native";
+import { StyleSheet } from "react-native";
+import Constants from "expo-constants";
+import { ImageBackground } from "react-native";
 import {LinearGradient} from "expo-linear-gradient";
-import { Card } from 'react-native-paper';
-//import {LinearGradient} from 'react-native-linear-gradient';
+import { Card } from "react-native-paper";
+//import {LinearGradient} from "react-native-linear-gradient";
 
 export default function BottomMessage() {
   return (

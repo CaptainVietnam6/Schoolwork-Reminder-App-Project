@@ -1,11 +1,12 @@
-import * as React from 'react';
-import { Text } from 'react-native';
-import { View } from 'react-native';
-import { StyleSheet } from 'react-native';
-import Constants from 'expo-constants';
-import { ImageBackground } from 'react-native';
+import * as React from "react";
+import { Text } from "react-native";
+import { View } from "react-native";
+import { StyleSheet } from "react-native";
+import Constants from "expo-constants";
+import { ImageBackground } from "react-native";
+import {Button} from "react-native";
 //import {LinearGradient} from "expo-linear-gradient";
-import { Card } from 'react-native-paper';
+import { Card } from "react-native-paper";
 
 export default function WelcomeMessage() {
   return (
@@ -23,15 +24,17 @@ const styles = StyleSheet.create({
     padding: 50,
     paddingTop: 150
   },
+
   title: {
     fontSize: 38,
     fontWeight: "bold",
     color: "#1BE049",
   },
+
   title2: {
-  fontSize: 20,
-  fontWeight: "bold",
-  color: "#1BE049",
-  paddingTop: 12,
-  }
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#1BE049",
+    paddingTop: 12,
+  },
 });

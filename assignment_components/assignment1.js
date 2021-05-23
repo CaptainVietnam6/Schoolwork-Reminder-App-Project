@@ -11,7 +11,7 @@ import { Card } from "react-native-paper";
 export default function TopMessage() {
   return (
     <View style = {styles.container}>
-      <Text style = {styles.message}>Your Assignments
+      <Text style = {styles.message}>Assignment 1
       </Text>
     </View>
   );
